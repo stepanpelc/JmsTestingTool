@@ -12,10 +12,12 @@ Prerequisite : installed java 8 sdk
 git clone https://github.com/zheludkovm/JmsTestingTool.git
 cd JmsTestingTool/build
 
-if you use linux :
-./run-server.sh
+if you use linux:
+`./run-server.sh`
+
 if you use windows :
-run-server.bat
+`run-server.bat`
+
 Open browser url  http://localhost:3000
 
 ### Supported JMS Providers
