@@ -1,11 +1,13 @@
-#JMS Testing tool
+# JMS Testing tool
+
 This tool intended to work with JMS :
 - send messages to queue
 - store persistent message collections
 - observe queue messages
 <img src="/readme-ext/main-window.png" width="900" height="450" />
 
-##Installation
+## Installation
+
 Prerequisite : installed java 8 sdk
 git clone https://github.com/zheludkovm/JmsTestingTool.git
 cd JmsTestingTool/build
@@ -16,7 +18,8 @@ if you use windows :
 run-server.bat
 Open browser url  http://localhost:3000
 
-###Supported JMS Providers
+### Supported JMS Providers
+
 - Active MQ http://activemq.apache.org/
 - AMQP https://qpid.apache.org/components/jms/
 - Stomp protocol https://github.com/fusesource/stompjms
@@ -53,6 +56,7 @@ Open browser url  http://localhost:3000
    }
 ```
 
-###Additional screenshots :
+### Additional screenshots
+
 ![Edit message](/readme-ext/edit-message.png)
 ![Config](/readme-ext/config.png)
