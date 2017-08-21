@@ -29,7 +29,9 @@ Open browser url  http://localhost:3000
   manually add connection to file build/config.edn
   for example generic config for IBM MQ (don't use it in real life, IBM MQ is supported provider)
   
-  {:id :generic-test,
+```clojure
+  {
+   :id :generic-test,
    :type :generic,
    :title "generic",
    :class "com.ibm.mq.jms.MQConnectionFactory",
@@ -41,7 +43,15 @@ Open browser url  http://localhost:3000
                 "setTransportType" [1]
                 },
    :browse-type :browser,
-   :queues[{:name "queue1", :title "queu1", :id :test-queue1}]}
+   :queues [
+            {
+              :name "queue1",
+              :title "queu1",
+              :id :test-queue1
+              }
+           ]
+   }
+```
 
 ###Additional screenshots :
 ![Edit message](/readme-ext/edit-message.png)
